@@ -4,7 +4,6 @@ import sr from "./../services/ScrollReveal";
 import "./HeroSection.css";
 
 function HeroSection() {
-    
   useEffect(() => {
     /*SCROLL HOME*/
     sr.reveal(".home__title", {});
@@ -48,7 +47,7 @@ function HeroSection() {
         </div>
 
         <div className="home__img">
-          <img src="/images/Profile.png" alt=""></img>
+          <img src="/images/ImageProfile.png" alt=""></img>
         </div>
       </section>
     </>
