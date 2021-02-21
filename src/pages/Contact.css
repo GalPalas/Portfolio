@@ -1,0 +1,28 @@
+.contact__input {
+  width: 100%;
+  font-size: 0.938rem;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid #0e2431;
+  outline: none;
+  margin-bottom: 2rem;
+}
+
+.contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 0.938rem;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .contact__form {
+    width: 360px;
+  }
+  .contact__container {
+    justify-items: center;
+  }
+}
