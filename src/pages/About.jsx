@@ -3,7 +3,6 @@ import "./About.css";
 import sr from "./../services/ScrollReveal";
 
 function About() {
-  
   useEffect(() => {
     /*SCROLL ABOUT*/
     sr.reveal(".about__img", {});
