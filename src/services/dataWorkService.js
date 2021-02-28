@@ -44,14 +44,14 @@ export const data = [
     iconGlobe: "bx bx-globe",
   },
   {
-    src: "/images/work5.jpg",
+    src: "/images/portfolio.jpg",
     classGit: "link-icon-github",
-    hrefGit: "",
+    hrefGit: "https://github.com/GalPalas/Portfolio",
     target: "_blank",
     rel: "noreferrer",
     iconGit: "bx bxl-github",
     classGlobe: "link-icon-globe",
-    hrefGlobe: "",
+    hrefGlobe: "https://gal-palas-portfolio.netlify.app",
     iconGlobe: "bx bx-globe",
   },
   {
