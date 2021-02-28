@@ -1,9 +1,9 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import './Header.css';
+import "./Header.css";
 
 function Header() {
-  const [click,setClick] = useState(false);
+  const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
@@ -20,27 +20,47 @@ function Header() {
           <div className={click ? "show" : "nav__menu"}>
             <ul className="nav__list">
               <li className="nav__item">
-                <Link to="/" className="nav__link activ" onClick={closeMobileMenu}>
+                <Link
+                  to="/"
+                  className="nav__link activ"
+                  onClick={closeMobileMenu}
+                >
                   Home
                 </Link>
               </li>
               <li className="nav__item">
-                <Link to="/about" className="nav__link" onClick={closeMobileMenu}>
+                <Link
+                  to="/about"
+                  className="nav__link"
+                  onClick={closeMobileMenu}
+                >
                   About
                 </Link>
               </li>
               <li className="nav__item">
-                <Link to="/skills" className="nav__link" onClick={closeMobileMenu}>
+                <Link
+                  to="/skills"
+                  className="nav__link"
+                  onClick={closeMobileMenu}
+                >
                   Skills
                 </Link>
               </li>
               <li className="nav__item">
-                <Link to="/work" className="nav__link" onClick={closeMobileMenu}>
+                <Link
+                  to="/work"
+                  className="nav__link"
+                  onClick={closeMobileMenu}
+                >
                   Work
                 </Link>
               </li>
               <li className="nav__item">
-                <Link to="/contact" className="nav__link" onClick={closeMobileMenu}>
+                <Link
+                  to="/contact"
+                  className="nav__link"
+                  onClick={closeMobileMenu}
+                >
                   Contact
                 </Link>
               </li>
@@ -48,7 +68,7 @@ function Header() {
           </div>
 
           <div className="nav__toggle" id="nav-toggle">
-            <i class="bx bx-menu" onClick={handleClick}></i>
+            <i className="bx bx-menu" onClick={handleClick}></i>
           </div>
         </nav>
       </header>

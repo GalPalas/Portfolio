@@ -34,7 +34,7 @@ function HeroSection() {
             rel="noreferrer"
             className="home__social-icon linkedin"
           >
-            <i class="bx bxl-linkedin"></i>
+            <i className="bx bxl-linkedin"></i>
           </a>
           <a
             href="https://github.com/GalPalas"
@@ -42,7 +42,7 @@ function HeroSection() {
             rel="noreferrer"
             className="home__social-icon github"
           >
-            <i class="bx bxl-github"></i>
+            <i className="bx bxl-github"></i>
           </a>
         </div>
 

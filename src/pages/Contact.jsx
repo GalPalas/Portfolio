@@ -12,22 +12,22 @@ function Contact() {
 
   return (
     <>
-      <section class="contact section" id="contact">
-        <h2 class="section-title">Contact</h2>
+      <section className="contact section" id="contact">
+        <h2 className="section-title">Contact</h2>
 
-        <div class="contact__container bd-grid">
-          <form onSubmit={sendEmail} class="contact__form">
+        <div className="contact__container bd-grid">
+          <form onSubmit={sendEmail} className="contact__form">
             <input
               name="name"
               type="text"
               placeholder="Name"
-              class="contact__input"
+              className="contact__input"
             ></input>
             <input
               name="email"
               type="mail"
               placeholder="Email"
-              class="contact__input"
+              className="contact__input"
             ></input>
             <textarea
               name="message"
@@ -35,12 +35,12 @@ function Contact() {
               placeholder="Message"
               cols="0"
               rows="10"
-              class="contact__input"
+              className="contact__input"
             ></textarea>
             <input
               type="submit"
               value="Send"
-              class="contact__button button"
+              className="contact__button button"
             ></input>
           </form>
         </div>

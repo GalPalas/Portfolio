@@ -22,7 +22,7 @@ function About() {
 
           <div>
             <h2 className="about__subtitle">I'am Gal</h2>
-            <p class="about__text">
+            <p className="about__text">
               Full Stack developer, capable of developing web platforms from
               scratch to production, with full responsiveness and preformance. I
               focus on planning, designing and developing both Back-End and

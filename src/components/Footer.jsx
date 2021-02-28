@@ -5,17 +5,17 @@ import "./Footer.css";
 function Footer() {
   return (
     <>
-      <footer class="footer">
-        <p class="footer__title">Gal</p>
-        <div class="footer__social">
-          <Link to="/" class="footer__icon facebook">
-            <i class="bx bxl-facebook"></i>
+      <footer className="footer">
+        <p className="footer__title">Gal</p>
+        <div className="footer__social">
+          <Link to="/" className="footer__icon facebook">
+            <i className="bx bxl-facebook"></i>
           </Link>
-          <Link to="/" class="footer__icon instagram">
-            <i class="bx bxl-instagram"></i>
+          <Link to="/" className="footer__icon instagram">
+            <i className="bx bxl-instagram"></i>
           </Link>
-          <Link to="/" class="footer__icon twitter">
-            <i class="bx bxl-twitter"></i>
+          <Link to="/" className="footer__icon twitter">
+            <i className="bx bxl-twitter"></i>
           </Link>
         </div>
         <p>&#169; 2020 Gal Palas</p>
